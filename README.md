@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BambangShop Publisher App
 Tutorial and Example for Advanced Programming 2024 - Faculty of Computer Science, Universitas Indonesia
 
@@ -81,3 +82,6 @@ This is the place for you to write reflections:
 #### Reflection Publisher-2
 
 #### Reflection Publisher-3
+=======
+# bambangshop
+>>>>>>> 2c43b969792b05a4d43ab3c4604e649effe0e608
