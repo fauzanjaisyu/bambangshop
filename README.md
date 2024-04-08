@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BambangShop Publisher App
 Tutorial and Example for Advanced Programming 2024 - Faculty of Computer Science, Universitas Indonesia
 
@@ -79,9 +78,14 @@ This is the place for you to write reflections:
 
 #### Reflection Publisher-1
 
+1. Pada modul dijelaskan bahwa penggunaan interface dilakukan apabila objek subscriber terdiri dari tipe yang beragam (contoh pada kasus Dog, Cat, Mouse), namun pada kasus bambangshop semua subscriber dianggap sama maka interface tidak diperlukan
+
+2. Karena id pada product dan url pada subscriber dipastikan selalu unik, maka pengunaan DashMap akan lebih cocok dibanding Vec, variabel yang unik bisa dijadikan key dalam penggunaan DashMap, dan operasi pengaksesan data berdasarkan nilai key pada DashMap sangat efisien, biasanya memiliki kompleksitas O(1)
+
+3. Walaupun singleton pattern menyediakan cara untuk mengakses satu instance dari kelas, implementasi dasarnya tidak secara otomatis thread-safe, oleh karena itu kita masih memerlukan DashMap untuk memastikan bahwa data yang diakses oleh thread yang berbeda tetap konsisten.
+
 #### Reflection Publisher-2
 
+
 #### Reflection Publisher-3
-=======
-# bambangshop
->>>>>>> 2c43b969792b05a4d43ab3c4604e649effe0e608
+
