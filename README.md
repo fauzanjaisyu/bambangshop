@@ -86,5 +86,10 @@ This is the place for you to write reflections:
 
 #### Reflection Publisher-2
 
+1. Tujuan pemisahan antara service dan repository adalah untuk meningkatkan modularitas, fleksibilitas, dan keberlanjutan kode dengan mengurangi ketergantungan langsung antara logika bisnis dan akses data, membuat pengembangan, pengujian, dan pemeliharaan aplikasi menjadi lebih mudah.
+
+2. Jika hanya menggunakan model, maka logika bisnis dan akses data akan bercampur, sehingga kode akan menjadi sulit dipahami, sulit diuji, dan sulit dipelihara. Setiap kali kita ingin mengubah bagian dari kode, kita harus memperhatikan bagaimana perubahan tersebut mempengaruhi bagian lain dari kode. Dengan menggunakan model, kita harus memperhatikan bagaimana model tersebut berinteraksi dengan model lainnya, sehingga kode akan menjadi lebih kompleks.
+
+3. Postman sangat membantu dalam melakukan testing API, karena kita bisa mengirimkan request ke server tanpa harus membuat frontend terlebih dahulu, sehingga kita bisa fokus pada pengembangan backend terlebih dahulu.
 
 #### Reflection Publisher-3
