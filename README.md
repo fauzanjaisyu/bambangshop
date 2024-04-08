@@ -93,3 +93,9 @@ This is the place for you to write reflections:
 3. Postman sangat membantu dalam melakukan testing API, karena kita bisa mengirimkan request ke server tanpa harus membuat frontend terlebih dahulu, sehingga kita bisa fokus pada pengembangan backend terlebih dahulu.
 
 #### Reflection Publisher-3
+
+1. Pada kasus ini kita menggunakan push model, dimana subscriber akan menerima notifikasi dari publisher tanpa perlu meminta notifikasi tersebut, publisher akan secara aktif mengirimkan notifikasi ke subscriber.
+
+2. Keuntungan dari menggunakan pull model adalah informasi subsciber lebih terjamin, namun kekurangannya adalah publisher harus mengetahui informasi subscriber, sehingga publisher harus melakukan polling secara berkala untuk mendapatkan informasi subscriber, hal ini akan mengakibatkan penggunaan resource yang lebih besar.
+
+3. Jika kita tidak menggunakan multi-threading, maka notifikasi akan dikirimkan satu per satu, sehingga notifikasi akan dikirimkan secara berurutan, hal ini akan mengakibatkan waktu yang lebih lama untuk mengirimkan notifikasi ke semua subscriber, dan jika terdapat subscriber yang lambat dalam menerima notifikasi, maka notifikasi akan tertunda untuk subscriber selanjutnya.
